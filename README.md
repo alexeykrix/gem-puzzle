@@ -1,2 +1,1 @@
-# gem-puzzle
-gem-puzzle on js
+# https://alexeykrix.github.io/gem-puzzle/
