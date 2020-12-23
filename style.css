@@ -19,15 +19,14 @@ body {
 .game {
   margin: 50px auto;
   width: 310px;
-  height: 310px;
-  display: flex;
-  flex-wrap: wrap;
+  height: 310px; 
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   border: 5px solid #2980b9;
 }
 
 .game div {
-  width: 75px;
-  height: 75px;
   line-height: 73px;
   text-align: center;
   font-size: 3rem;
